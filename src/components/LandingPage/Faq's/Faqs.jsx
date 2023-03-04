@@ -10,6 +10,12 @@ const Faqs = () => {
     setValue(e);
   };
 
+  for (let i = 0; i < Data.length; i++) {
+    Data[i].Open = false;
+  }
+
+  Data[value].Open = true;
+
   const Qa = Data.map((e) => {
     return (
       <QA
@@ -21,12 +27,6 @@ const Faqs = () => {
       />
     );
   });
-
-  for (let i = 0; i < Data.length; i++) {
-    Data[i].Open = false;
-  }
-
-  Data[value].Open = true;
 
   return (
     <>
