@@ -16,6 +16,7 @@
   overflow-x: hidden;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 h1, h5 {
@@ -34,7 +35,8 @@ p {
   line-height: 1.7;
   font-weight: 300;
   font-style: normal;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
+  color: #eeeeee;
 }
 
 .section-header {

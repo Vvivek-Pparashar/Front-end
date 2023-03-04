@@ -1,11 +1,44 @@
 .m-os {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background-color: var(--s-pm-1);
+  padding: 20px 0;
 }
 
 .m-os-c {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0 80px;
+}
+
+.m-os-c a {
+  text-decoration: none;
+  outline: none;
+}
+
+.m-card {
+  height: 80vh;
+  width: 27vw;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 13px 13px 24px -7px rgba(0,0,0,1);
+  margin-bottom: 50px;
+}
+
+.m-card-comp {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: baseline;
+  background-size: cover;
+  padding: 30px;
+}
+
+.m-card .h5 {
+  color: white;
 }
