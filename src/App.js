@@ -1,6 +1,7 @@
 // import { NavLink, Outlet } from "react-router-dom";
 // import style from "./App.module.css";
 import AboutUs from "./components/LandingPage/AboutUs/AboutUs";
+import Faqs from "./components/LandingPage/Faq's/Faqs";
 import HeroPage from "./components/LandingPage/HeroPage/HeroPage";
 import OurServices from "./components/LandingPage/OurServices/OurServices";
 import StoryTelling from "./components/LandingPage/StoryTelling/StoryTelling";
@@ -17,10 +18,12 @@ function App() {
         <li className={`${style["m-item"]}`}><NavLink className={`${style["m-link"]} ${style["m-button-p"]}`}>Join</NavLink></li>
         <li className={`${style["m-item"]}`}><NavLink className={`${style["m-link"]} ${style["m-button-s"]}`}>Login</NavLink></li>
       </ul> */}
+      
       <HeroPage/>
       <AboutUs/>
       <OurServices/>
       <StoryTelling/>
+      <Faqs/>
     </div>
   );
 }

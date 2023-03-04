@@ -1,0 +1,21 @@
+.m-fa {
+  width: 100%;
+  height: 100%;
+  background-color: var(--s-accent-1);
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.m-fa-c {
+  margin: 0 auto;
+  width: 98%;
+  height: 90%;
+  background: #ececec;
+  padding: 90px 90px 70px;
+  border-radius: 15px;
+}
+
+.m-fa-qa {
+  display: flex;
+  flex-direction: column;
+}
