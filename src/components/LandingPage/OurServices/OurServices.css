@@ -33,7 +33,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: baseline;
   background-size: cover;
   padding: 30px;

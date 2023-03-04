@@ -3,6 +3,7 @@
 import AboutUs from "./components/LandingPage/AboutUs/AboutUs";
 import HeroPage from "./components/LandingPage/HeroPage/HeroPage";
 import OurServices from "./components/LandingPage/OurServices/OurServices";
+import StoryTelling from "./components/LandingPage/StoryTelling/StoryTelling";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <HeroPage/>
       <AboutUs/>
       <OurServices/>
+      <StoryTelling/>
     </div>
   );
 }

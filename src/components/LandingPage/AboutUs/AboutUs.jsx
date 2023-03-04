@@ -1,9 +1,5 @@
 import React from "react";
 import "./AboutUs.css";
-import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
-import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import RemoveIcon from "@mui/icons-material/Remove";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 const AboutUs = () => {
   return (
