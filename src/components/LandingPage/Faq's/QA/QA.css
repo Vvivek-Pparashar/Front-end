@@ -8,7 +8,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 10px;
+  padding: 20px 10px;
   cursor: pointer;
 }
 
@@ -19,10 +19,15 @@
 }
 
 .m-qa-ans {
-  display: none;
-  padding: 10px;
-  padding-bottom: 30px;
-  transition: all 0.5s linear;
+  padding: 0px 15px;
+  margin: 0 0 7px 0;
+  height: 0;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transition: .1s ease;
+  -moz-transition: .1s linear;
+  -o-transition: .1s linear;
+  transition: .1s linear;
 }
 .m-qa-ans p {
   color: black;
@@ -30,8 +35,10 @@
 }
 
 .m-qa-ans.active {
-  display: block;
-  transition: all 0.5s linear;
+  height: auto;
+  opacity: 1;
+  padding: 15px;
+  z-index: 2;
 }
 
 .navigator {
