@@ -1,19 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montez&display=swap");
 
 :root {
-    --s-accent-1: #eeeeee;
-    --s-pm-1: #1B3061;
-    --s-pm-2: #0081EB;
-    --s-sc-1: #EB8F3B;
-    --s-sc-2: #000000;
-    --s-oth: #5D402B;
+  --s-accent-1: #eeeeee;
+  --s-pm-1: #1b3061;
+  --s-pm-2: #0081eb;
+  --s-sc-1: #eb8f3b;
+  --s-sc-2: #000000;
+  --s-oth: #5d402b;
 }
 
 * {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h5 {
+  font-weight: normal;
+  font-size: 4.5vw;
+  font-style: normal;
+  line-height: 1.4;
+}
+
+h5 {
+  font-size: 2.7vw;
+  line-height: 1.4;
+}
+
+p {
+  line-height: 1.7;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.5vw;
+}
+
+.section-header {
+  position: relative;
+  text-align: center;
+}
+.section-header::after {
+  content: "";
+  width: 150px;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translatex(-50%);
+  background-color: #eb8f3b;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 550px) {
+  h1 {
+    font-size: 10vw;
+  }
+
+  p {
+    font-size: 4vw;
+  }
 }
