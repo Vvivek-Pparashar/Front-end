@@ -1,5 +1,11 @@
-.m-os{
-        width: 100vw;
-        height: 100vh;
-        background-color: var(--s-pm-1);
+.m-os {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--s-pm-1);
+}
+
+.m-os-c {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
 }
