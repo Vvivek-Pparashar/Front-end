@@ -4,6 +4,7 @@ import AboutUs from "./components/LandingPage/AboutUs/AboutUs";
 import Faqs from "./components/LandingPage/Faq's/Faqs";
 import Footer from "./components/LandingPage/Footer/Footer";
 import HeroPage from "./components/LandingPage/HeroPage/HeroPage";
+import LatestNews from "./components/LandingPage/LatestNews/LatestNews";
 import OurServices from "./components/LandingPage/OurServices/OurServices";
 import StoryTelling from "./components/LandingPage/StoryTelling/StoryTelling";
 
@@ -24,6 +25,7 @@ function App() {
       <AboutUs/>
       <OurServices/>
       <StoryTelling/>
+      <LatestNews/>
       <Faqs/>
       <Footer/>
     </div>

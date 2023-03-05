@@ -1,0 +1,12 @@
+.m-ln {
+  margin-bottom: 30px;
+}
+
+.m-ln-c {
+  width: 100vw;
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
