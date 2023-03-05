@@ -1,16 +1,24 @@
 import React from "react";
-import NavigateNextIcon from '@mui/icons-material/NavigateNext';
-import './QA.css'
+import NavigateNextIcon from "@mui/icons-material/NavigateNext";
+import "./QA.css";
 
 const QA = ({ question, ans, open, index, changeValue }) => {
   return (
     <>
-      <div className="m-qa" onClick={()=>changeValue(index)}>
+      <div
+        className="m-qa"
+        style={{ borderBottom: `${index === 7 ? "none" : ""}` }}
+        onClick={() => changeValue(index)}
+      >
         <div className="m-qa-question">
-          <span style={{color:"black"}}>{question}</span>
-          <NavigateNextIcon className={`navigator ${open === true?"active":""}`}/>
+          <span style={{ color: "black" }}>{question}</span>
+          <NavigateNextIcon
+            className={`navigator ${open === true ? "active" : ""}`}
+          />
         </div>
-        <div className={`m-qa-ans ${open === true?"active":""}`}><p>{ans}</p></div>
+        <div className={`m-qa-ans ${open === true ? "active" : ""}`}>
+          <p>{ans}</p>
+        </div>
       </div>
     </>
   );
