@@ -1,0 +1,17 @@
+.m-ncard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #ececec;
+  padding-bottom: 30px;
+  border-bottom-left-radius:30px ;
+  border-bottom-right-radius:30px ;
+}
+
+.m-ncard-c{
+        padding: 10px 20px;
+}
+.m-ncard img{
+        height: 17vw;
+}

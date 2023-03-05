@@ -32,7 +32,7 @@ const Faqs = () => {
     <>
       <div className="m-fa">
         <div className="m-fa-c">
-          <h5 style={{ color: "black" }}>FAQ's</h5>
+          <h5 style={{ color: "#1B3061" }}>FAQ's</h5>
           <div className="m-fa-qa">{Qa}</div>
         </div>
       </div>

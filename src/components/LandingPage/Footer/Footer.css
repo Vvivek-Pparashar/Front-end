@@ -4,7 +4,7 @@
   background-color: #0b2230;
   display: flex;
   flex-direction: column;
-  padding: 50px 80px;
+  padding: 50px 80px 10px;
 }
 
 .m-f {
@@ -52,10 +52,10 @@
   color: white;
 }
 
-.mf hr{
-        margin-bottom: 30px;
+.mf hr {
+  margin-bottom: 5px;
 }
 
-.mf .p{
-        text-align: center;
+.mf .p {
+  text-align: center;
 }
