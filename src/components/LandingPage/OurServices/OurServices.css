@@ -24,7 +24,7 @@
   width: 27vw;
   border-radius: 10px;
   cursor: pointer;
-  box-shadow: 13px 13px 24px -7px rgba(0,0,0,1);
+  box-shadow: 13px 13px 24px -7px rgba(0, 0, 0, 1);
   margin-bottom: 50px;
 }
 
@@ -41,4 +41,17 @@
 
 .m-card .h5 {
   color: white;
+}
+
+@media screen and (max-width: 750px) {
+  .m-os-c {
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 0 10px;
+  }
+
+  .m-card {
+    height: 50vh;
+    width: 85vw;
+  }
 }

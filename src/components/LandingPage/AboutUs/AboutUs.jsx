@@ -19,7 +19,7 @@ const AboutUs = () => {
               We believe in promoting <br />
               innovative startups, a <br />
               multifaceted platform <br />
-              allowing user to review the <br />
+              allowing user to review <br />
               startups and get insight
               <br />
               about creative discipline
@@ -28,9 +28,7 @@ const AboutUs = () => {
               <br /> facts and observations <br />
               will to build a market.
             </h5>
-            <b className="b">
-              About Us
-            </b>
+            <b className="b">About Us</b>
           </div>
         </div>
       </div>
