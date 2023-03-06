@@ -3,10 +3,27 @@
 }
 
 .m-ln-c {
+  /* overflow: hidden; */
   width: 100vw;
   padding: 60px 80px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  gap: 30px;
+  flex-wrap: nowrap;
+  gap: 3.5%;
+}
+
+@media screen and (max-width: 750px) {
+  .m-ln {
+    margin-bottom: 30px;
+  }
+
+  .m-ln-c {
+    /* overflow: hidden; */
+    width: 100vw;
+    padding: 60px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 3.5%;
+  }
 }

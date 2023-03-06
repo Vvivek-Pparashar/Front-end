@@ -26,7 +26,11 @@ const AboutUs = () => {
               <br /> for a variety of projects.
               <br /> Opinions supported by
               <br /> facts and observations <br />
-              will to build a market.
+              will to build a market.<br></br>
+              {/* We believe in promoting innovative startups, a multifaceted
+              platform allowing user to review startups and get insight about
+              creative discipline for a variety of projects. Opinions supported
+              by facts and observations will to build a market. */}
             </h5>
             <b className="b">About Us</b>
           </div>
