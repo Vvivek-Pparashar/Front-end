@@ -6,6 +6,8 @@
 }
 
 .m-os-c {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -15,16 +17,17 @@
 }
 
 .m-os-c a {
+  height: 100%;
   text-decoration: none;
   outline: none;
 }
 
 .m-card {
-  height: 80vh;
+  height: 36vw;
   width: 27vw;
   border-radius: 10px;
   cursor: pointer;
-  box-shadow: 13px 13px 24px -7px rgba(0,0,0,1);
+  box-shadow: 13px 13px 24px -7px rgba(0, 0, 0, 1);
   margin-bottom: 50px;
 }
 
@@ -41,4 +44,18 @@
 
 .m-card .h5 {
   color: white;
+}
+
+@media screen and (max-width: 750px) {
+  .m-os-c {
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 0 10px;
+  }
+
+  .m-card {
+    /* height: 50vh; */
+    height: 105vw;
+    width: 85vw;
+  }
 }

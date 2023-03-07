@@ -19,9 +19,7 @@ const OurServices = () => {
               >
                 <h5 className="h5">Reviews</h5>
                 <p>
-                  Lorem ipsum, dolor sit amet vivek is
-                  <br />
-                  consectetur adipisicing
+                  Lorem ipsum, dolor sit amet vivek is consectetur adipisicing
                 </p>
               </div>
             </a>
@@ -37,7 +35,6 @@ const OurServices = () => {
                 <h5 className="h5">RoadMap</h5>
                 <p>
                   Lorem ipsum, dolor sit amet vivek is
-                  <br />
                   consectetur adipisicing
                 </p>
               </div>
@@ -54,7 +51,6 @@ const OurServices = () => {
                 <h5 className="h5">Blog</h5>
                 <p>
                   Lorem ipsum, dolor sit amet vivek is
-                  <br />
                   consectetur adipisicing
                 </p>
               </div>
