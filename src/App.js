@@ -8,6 +8,9 @@ import LatestNews from "./components/LandingPage/LatestNews/LatestNews";
 import OurServices from "./components/LandingPage/OurServices/OurServices";
 import StoryTelling from "./components/LandingPage/StoryTelling/StoryTelling";
 import ScrollToTop from "react-scroll-to-top";
+// import NavBar from "./components/LandingPage/NavBar/NavBar";
+// import Carousel from "./components/LandingPage/Crousal/Carousel";
+import StartUpWithUs from "./components/LandingPage/StartUpWithUs/StartUpWithUs";
 
 function App() {
   return (
@@ -25,10 +28,13 @@ function App() {
       <HeroPage />
       <AboutUs />
       <OurServices />
+      <StartUpWithUs/>
       <StoryTelling />
       <LatestNews />
       <Faqs />
       <Footer />
+      {/* <CarouselData/> */}
+      {/* <NavBar/> */}
       <ScrollToTop
         smooth
         id="scroll-to-top"
