@@ -1,8 +1,8 @@
 import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 
 // Import Swiper styles
 import "swiper/css";
@@ -18,18 +18,18 @@ export default function Carousel() {
   return (
     <>
       <Swiper
-        slidesPerView={2.2}
+        // slidesPerView={3}
         spaceBetween={30}
         // centeredSlides={true}
         loop={true}
-        // autoplay={{
-        //   delay: 8000,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 8000,
+          disableOnInteraction: false,
+        }}
         breakpoints={{
           640: {
-            slidesPerView: 2,
-            spaceBetween: 30,
+            slidesPerView: 1,
+            spaceBetween: 10,
           },
           768: {
             slidesPerView: 2,
@@ -48,24 +48,24 @@ export default function Carousel() {
         // navigation={true}
         grabCursor={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper-startups"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide className="swiperSlide-startups">Slide 1</SwiperSlide>
+        <SwiperSlide className="swiperSlide-startups">Slide 2</SwiperSlide>
+        <SwiperSlide className="swiperSlide-startups">Slide 3</SwiperSlide>
+        <SwiperSlide className="swiperSlide-startups">Slide 4</SwiperSlide>
+        <SwiperSlide className="swiperSlide-startups">Slide 5</SwiperSlide>
+        <SwiperSlide className="swiperSlide-startups">Slide 6</SwiperSlide>
+        <SwiperSlide className="swiperSlide-startups">Slide 7</SwiperSlide>
+        <SwiperSlide className="swiperSlide-startups">Slide 8</SwiperSlide>
+        <SwiperSlide className="swiperSlide-startups">Slide 9</SwiperSlide>
 
-        <div className="slider-controler">
-          <div className="swiper-button-prev slider-arrow">
-            <ArrowBackIosNewIcon color="white" style={{color:"white"}}/>
+        <div className="slider-controler-startups">
+          <div className="swiper-button-prev slider-arrow-startups">
+            <ArrowBackIosNewIcon color="white" style={{ color: "white" }} />
           </div>
-          <div className="swiper-button-next slider-arrow">
-            <ArrowForwardIosIcon color="white" style={{color:"white"}}/>
+          <div className="swiper-button-next slider-arrow-startups">
+            <ArrowForwardIosIcon color="white" style={{ color: "white" }} />
           </div>
         </div>
       </Swiper>

@@ -1,29 +1,19 @@
 .m-ln {
   margin-bottom: 30px;
+  width: 100vw;
+  padding: 0 70px;
+  display: flex;
+  flex-direction: column;
 }
 
 .m-ln-c {
-  /* overflow: hidden; */
-  width: 100vw;
-  padding: 60px 80px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  gap: 3.5%;
+  margin-top: 40px;
+  width: 100%;
 }
 
 @media screen and (max-width: 750px) {
   .m-ln {
     margin-bottom: 30px;
-  }
-
-  .m-ln-c {
-    /* overflow: hidden; */
-    width: 100vw;
-    padding: 60px 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 3.5%;
+    padding: 0 20px;
   }
 }
