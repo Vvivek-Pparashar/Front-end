@@ -11,8 +11,6 @@ const LatestNews = () => {
         </div>
         <div className="m-ln-c">
           <News />
-          <News />
-          <News />
         </div>
       </div>
     </>
