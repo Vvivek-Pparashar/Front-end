@@ -11,6 +11,7 @@ import ScrollToTop from "react-scroll-to-top";
 // import NavBar from "./components/LandingPage/NavBar/NavBar";
 // import Carousel from "./components/LandingPage/Crousal/Carousel";
 import StartUpWithUs from "./components/LandingPage/StartUpWithUs/StartUpWithUs";
+import { NavBar } from "./components/LandingPage/NavBar/NavBar";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <li className={`${style["m-item"]}`}><NavLink className={`${style["m-link"]} ${style["m-button-s"]}`}>Login</NavLink></li>
       </ul> */}
 
+      <NavBar/>
       <HeroPage />
       <AboutUs />
       <OurServices />

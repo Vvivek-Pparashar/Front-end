@@ -7,7 +7,7 @@ const LatestNews = () => {
     <>
       <div className="m-ln">
         <div className="section-header">
-          <h1>Latest News</h1>
+          <h2>Latest News</h2>
         </div>
         <div className="m-ln-c">
           <News />

@@ -1,54 +1,33 @@
-import React from "react";
-import InfiniteScroll from "react-infinite-scroll-component";
-import axios from "axios";
- 
-let page = 1;
-const fetchData = (setItems, items) => {
- axios
-   .get(`https://jsonplaceholder.typicode.com/photos?_page=${page}&_limit=10`)
-   .then((res) => {
-     setItems([...items, ...res.data]);
-     page = page + 1;
-   });
-};
- 
-const refresh = (setItems) => {};
- 
-export default function App() {
- const [items, setItems] = React.useState([]);
- 
- React.useEffect(()=>{
-   fetchData(setItems,items)
- },[])
- return (
-   <InfiniteScroll
-     dataLength={items.length} //This is important field to render the next data
-     next={() => {
-       fetchData(setItems, items);
-     }}
-     hasMore={true}
-     loader={<h4>Loading...</h4>}
-     endMessage={
-       <p style={{ textAlign: "center" }}>
-         <b>Yay! You have seen it all</b>
-       </p>
-     }
-     // below props only if you need pull down functionality
-     refreshFunction={refresh}
-     pullDownToRefresh
-     pullDownToRefreshThreshold={50}
-     pullDownToRefreshContent={
-       <h3 style={{ textAlign: "center" }}># 8595; Pull down to refresh</h3>
-     }
-     releaseToRefreshContent={
-       <h3 style={{ textAlign: "center" }}># 8593; Release to refresh</h3>
-     }
-   >
-     <div style={{ minHeight: "100vh" }}>
-       {items.map((user) => (
-         <img src={user.url} height="100px" width="200px" />
-       ))}
-     </div>
-   </InfiniteScroll>
- );
+import { useState } from "react";
+import { NavLink } from "react-router-dom";
+import style from "./NavBar.module.css";
+
+export const NavBar = () => {
+  const activeLink = ({ isActive }) => isActive ? `${style["m-link"]} ${style["activeLink"]}` : `${style["m-link"]}`
+  const activeLinkBtnP = ({ isActive }) => isActive ? `${style["m-link"]} ${style["m-button-p"]} ${style["activeLink"]}` : `${style["m-link"]} ${style["m-button-p"]}`
+  const activeLinkBtnS = ({ isActive }) => isActive ? `${style["m-link"]} ${style["m-button-s"]} ${style["activeLink"]}` : `${style["m-link"]} ${style["m-button-s"]}`
+  const [display, setDisplay] = useState(`${style["m"]}`);
+  const [background, setBackground] = useState("transparent");
+  
+  let prevScrollpos = window.pageYOffset;
+  window.onscroll = function () {
+    let currentScrollPos = window.pageYOffset;
+    (prevScrollpos < currentScrollPos) ? setDisplay(`${style["m"]} ${style["scrollUp"]}`) : setDisplay(`${style["m"]} ${style["scrollDown"]}`)
+    prevScrollpos = currentScrollPos;
+    (currentScrollPos > 30) ? setBackground("#42547C") : setBackground("transparent")
+  }
+  return (
+    <div className="App">
+      <ul className={display} style = {{background}}>
+        <div className={`${style["logo"]}`}></div>
+        <li className={`${style["m-item"]}`}><NavLink className={activeLink} to="/startups">For Startups</NavLink></li>
+        <li className={`${style["m-item"]}`}><NavLink className={activeLink} to="/review">Write a Review</NavLink></li>
+        <li className={`${style["m-item"]}`}><NavLink className={activeLink} to="/blogs">Blogs</NavLink></li>
+        <li className={`${style["m-item"]}`}><NavLink className={activeLink} to="/faq">FAQ's</NavLink></li>
+        <li className={`${style["m-item"]}`}><NavLink className={activeLinkBtnP} to="join">Join</NavLink></li>
+        <li className={`${style["m-item"]}`}><NavLink className={activeLinkBtnS} to="login">Login</NavLink></li>
+      </ul>
+      <div style={{margin: "0 0 5rem 0"}}></div>
+    </div>
+  );
 }

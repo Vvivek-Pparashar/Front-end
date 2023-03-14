@@ -6,7 +6,7 @@ const OurServices = () => {
     <>
       <div className="m-os">
         <div className="section-header">
-          <h1 style={{ color: "white" }}>Our services</h1>
+          <h2 style={{ color: "white" }}>Our services</h2>
         </div>
         <div className="m-os-c">
           <div className="m-card">
@@ -34,8 +34,7 @@ const OurServices = () => {
               >
                 <h5 className="h5">RoadMap</h5>
                 <p>
-                  Lorem ipsum, dolor sit amet vivek is
-                  consectetur adipisicing
+                  Lorem ipsum, dolor sit amet vivek is consectetur adipisicing
                 </p>
               </div>
             </a>
@@ -50,8 +49,7 @@ const OurServices = () => {
               >
                 <h5 className="h5">Blog</h5>
                 <p>
-                  Lorem ipsum, dolor sit amet vivek is
-                  consectetur adipisicing
+                  Lorem ipsum, dolor sit amet vivek is consectetur adipisicing
                 </p>
               </div>
             </a>

@@ -6,10 +6,13 @@ import "./Faqs.css";
 const Faqs = () => {
   const [value, setValue] = useState(0);
 
+  
+
   const changeValue = (e) => {
     setValue(e);
   };
 
+  console.log(value)
   for (let i = 0; i < Data.length; i++) {
     Data[i].Open = false;
   }
@@ -32,7 +35,7 @@ const Faqs = () => {
     <>
       <div className="m-fa">
         <div className="m-fa-c">
-          <h5 style={{ color: "#1B3061" }}>FAQ's</h5>
+          <h2 className="m-fa-c-h2">FAQ's</h2>
           <div className="m-fa-qa">{Qa}</div>
         </div>
       </div>

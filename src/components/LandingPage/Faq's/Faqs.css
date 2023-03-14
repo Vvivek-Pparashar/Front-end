@@ -14,6 +14,11 @@
   border-radius: 15px;
 }
 
+.m-fa-c-h2{
+  font-size: var(--head-1);
+  color: var(--s-pm-1);
+}
+
 .m-fa-qa {
   display: flex;
   flex-direction: column;

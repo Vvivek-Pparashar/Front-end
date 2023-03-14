@@ -2,7 +2,8 @@
   width: 100vw;
   height: 100%;
   background-color: var(--s-pm-1);
-  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .m-os-c {
@@ -12,7 +13,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 50px;
   padding: 0 80px;
 }
 
@@ -49,12 +49,10 @@
 @media screen and (max-width: 750px) {
   .m-os-c {
     flex-direction: column;
-    margin-top: 50px;
     padding: 0 10px;
   }
 
   .m-card {
-    /* height: 50vh; */
     height: 105vw;
     width: 85vw;
   }

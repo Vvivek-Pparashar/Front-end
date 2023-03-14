@@ -1,51 +1,24 @@
-/* #app {
-  height: 100%;
-}
-html,
-body {
-  position: relative;
-  height: 100%;
-}
-
-body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-} */
-
 .mySwiper-startups {
   width: 100%;
-  height: 100vh;
+  height: 45vw;
   position: relative;
   background-color: rgb(17, 79, 132);
-  background-color:var(--s-pm-1);
+  background-color: var(--s-pm-1);
   margin: 0;
   padding: 0;
-  /* overflow-x: hidden; */
 }
-
-/* .swiper {
-  width: 60vw;
-  height: 100vh;
-  /* background-color: blueviolet; */
-/* } */ 
 
 .swiperSlide-startups {
   height: 100%;
   text-align: center;
   font-size: 18px;
-  background-color:rgb(249, 252, 251);
+  background-color: rgb(249, 252, 251);
 
   /* Center slide text vertically */
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-
 
 .swiper-slide img {
   display: block;
@@ -64,7 +37,6 @@ body {
 
 .slider-arrow-startups {
   position: absolute;
-  /* bottom: -1000rem; */
   top: 40px;
   height: 50px;
   width: 50px;
@@ -85,4 +57,16 @@ body {
 .swiper-button-prev::after,
 .swiper-button-next::after {
   display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .mySwiper-startups {
+    height: 55vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .mySwiper-startups {
+    height: 80vh;
+  }
 }
