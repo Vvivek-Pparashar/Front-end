@@ -48,8 +48,11 @@
   flex-direction: column;
 }
 
-.h5 {
+.m-a-r-h5{
   color: var(--s-oth);
+  font-size: clamp(32px, 3vw, 55px);
+  font-size: var(--head-3);
+  /* font-size: 30px; */
 }
 
 .b {

@@ -18,9 +18,7 @@ export default function Carousel() {
   return (
     <>
       <Swiper
-        // slidesPerView={3}
         spaceBetween={30}
-        // centeredSlides={true}
         loop={true}
         autoplay={{
           delay: 8000,
@@ -32,10 +30,6 @@ export default function Carousel() {
             spaceBetween: 10,
           },
           768: {
-            slidesPerView: 2,
-            spaceBetween: 30,
-          },
-          1024: {
             slidesPerView: 2.3,
             spaceBetween: 30,
           },
@@ -45,7 +39,6 @@ export default function Carousel() {
           prevEl: ".swiper-button-prev",
           clickable: true,
         }}
-        // navigation={true}
         grabCursor={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper-startups"
