@@ -17,7 +17,7 @@ const QA = ({ question, ans, open, index, changeValue }) => {
           />
         </div>
         <div className={`m-qa-ans ${open === true ? "active" : ""}`}>
-          <p>{ans}</p>
+          {ans}
         </div>
       </div>
     </>

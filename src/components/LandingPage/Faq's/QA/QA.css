@@ -24,29 +24,27 @@
   height: 0;
   z-index: -1;
   opacity: 0;
+  color: black;
+  font-size: 13px;
+  font-weight: 300;
+  height: 0;
+}
+
+.active {
+  height: auto;
+  opacity: 1;
+  padding: 15px;
+  z-index: 2;
   -webkit-transition: .1s ease;
   -moz-transition: .1s linear;
   -o-transition: .1s linear;
   transition: .1s linear;
 }
-.m-qa-ans p {
-  color: black;
-  font-size: 13px;
-}
-
-.m-qa-ans.active {
-  height: auto;
-  opacity: 1;
-  padding: 15px;
-  z-index: 2;
-}
 
 .navigator {
   transform: rotate(0);
-  /* transition: rotate 1s linear; */
 }
 
 .navigator.active {
   transform: rotate(90deg);
-  /* transition: rotate 1s linear; */
 }

@@ -15,6 +15,7 @@ const Faqs = () => {
   }
 
   Data[value].Open = true;
+  console.log(value)
 
   const Qa = Data.map((e) => {
     return (
