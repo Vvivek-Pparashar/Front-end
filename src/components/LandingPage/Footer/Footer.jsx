@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="m-f">
           <div className="m-f-l">
             <img src="../../../../assests/landingPage/logo.png" alt="logo" />
-            <p>
+            <p className="m-f-l-p">
               We believe in promoting innovative <br />
               startups, a multifaceted platform <br />
               allowing user to review the <br />
@@ -67,7 +67,9 @@ const Footer = () => {
           </div>
         </div>
         <hr></hr>
-        <p className="p">&#169; StarVest Private Limited. All Rights Reserved.</p>
+        <p className="p">
+          &#169; StarVest Private Limited. All Rights Reserved.
+        </p>
       </div>
     </>
   );

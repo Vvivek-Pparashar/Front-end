@@ -21,6 +21,11 @@
   flex-direction: column;
 }
 
+.m-f-l-p{
+  color: white;
+  font-size: var(--sm-1);
+}
+
 .m-f-l img {
   width: 20vw;
   margin-bottom: 40px;
@@ -28,7 +33,7 @@
 
 .m-f-l span {
   color: white;
-  font-weight: normal;
+  font-weight: 400;
 }
 .m-f-r-f-s,
 .m-f-r-s-s {
