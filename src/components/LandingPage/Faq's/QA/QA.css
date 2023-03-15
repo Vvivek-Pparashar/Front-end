@@ -23,21 +23,22 @@
   padding: 0px 15px;
   margin: 0 0 7px 0;
   z-index: -1;
-  -webkit-transition: 0.1s ease;
-  -moz-transition: 0.1s linear;
-  -o-transition: 0.1s linear;
-  transition: 0.1s linear;
-}
-.m-qa-ans p {
+  opacity: 0;
   color: black;
   font-size: 13px;
   font-weight: 300;
+  height: 0;
 }
 
-.m-qa-ans.active {
-  display: block;
+.active {
+  height: auto;
+  opacity: 1;
   padding: 15px;
   z-index: 2;
+  -webkit-transition: .1s ease;
+  -moz-transition: .1s linear;
+  -o-transition: .1s linear;
+  transition: .1s linear;
 }
 
 .navigator {
