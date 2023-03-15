@@ -41,6 +41,7 @@
   justify-content: center;
   flex: 2;
   z-index: 3;
+  margin-top: -40px;
   /* min-height: 100%; */
 }
 
@@ -53,7 +54,7 @@
 .m-l-p {
   color: white;
   font-size: var(--sm-1);
-  font-weight: 300;
+  font-weight: 200;
   margin: 20px 0 30px;
 }
 
@@ -99,6 +100,7 @@
   .m-l {
     align-items: center;
     text-align: center;
+    margin-top: 0;
   }
 
   .m-l button {
