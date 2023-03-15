@@ -27,7 +27,6 @@ export const NavBar = () => {
         <li className={`${style["m-item"]}`}><NavLink className={activeLinkBtnP} to="join">Join</NavLink></li>
         <li className={`${style["m-item"]}`}><NavLink className={activeLinkBtnS} to="login">Login</NavLink></li>
       </ul>
-      <div style={{margin: "0 0 5rem 0"}}></div>
     </div>
   );
 }
