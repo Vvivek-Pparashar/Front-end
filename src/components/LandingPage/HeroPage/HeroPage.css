@@ -47,12 +47,13 @@
 .m-l-h1 {
   font-size: var(--xl-1);
   color: white;
+  font-weight: 500;
 }
 
 .m-l-p {
   color: white;
   font-size: var(--sm-1);
-  font-weight: 200;
+  font-weight: 300;
   margin: 20px 0 30px;
 }
 

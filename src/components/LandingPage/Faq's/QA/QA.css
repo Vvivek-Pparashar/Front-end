@@ -30,11 +30,12 @@
   height: 0;
 }
 
-.active {
+.m-qa-ans.active {
+  display: block;
   height: auto;
   opacity: 1;
   padding: 15px;
-  z-index: 2;
+  z-index: -1;
   -webkit-transition: .1s ease;
   -moz-transition: .1s linear;
   -o-transition: .1s linear;
