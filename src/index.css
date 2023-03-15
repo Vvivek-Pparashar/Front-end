@@ -9,8 +9,8 @@
   --s-sc-2: #000000;
   --s-oth: #5d402b;
 
-  --xxl-1: clamp(48px, 3vw, 56px);
-  --xl-1: clamp(42px, 6vw, 50px);
+  --xxl-1: clamp(48px, 4vw, 56px);
+  --xl-1: clamp(42px, 4vw, 50px);
   --head-1: clamp(40px, 3vw, 48px);
   --lg-1: clamp(40px, 3vw, 44px);
   --head-2: clamp(36px, 3vw, 40px);
@@ -19,9 +19,9 @@
   --head-4: clamp(24px, 3vw, 28px);
   --head-5: clamp(20px, 3vw, 24px);
   --head-6: clamp(18px, 3vw, 22px);
-  --sm-1: clamp(17px, 1.5vw, 20px);
-  --dsm-1: clamp(14px, 3vw, 17px);
-  --default-1: clamp(13px, 3vw, 16px);
+  --sm-1: clamp(18px, 1.5vw, 19px);
+  --dsm-1: clamp(15px, 2vw, 17px);
+  --default-1: clamp(13px, 2vw, 16px);
   --xs-1: clamp(12px, 3vw, 15px);
 }
 

@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
-import { Landing } from "./components/Landing/Landing";
+// import { Landing } from "./components/Landing/Landing";
 
 export const router = createBrowserRouter([
     {
@@ -10,7 +10,7 @@ export const router = createBrowserRouter([
       children: [
         {
             path: "/",
-            element: <Landing />
+            // element: <Landing />
         }
       ]
     }

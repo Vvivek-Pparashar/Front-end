@@ -1,18 +1,4 @@
-.m {
-    display: flex;
-    margin-block-start: 0;
-    gap: 1rem;
-    padding: 0.5rem 4rem;
-    justify-content: flex-end;
-    list-style-type: none;
-    align-items: center;
-    /* backdrop-filter: invert(80%);
-    position: fixed;
-    width: 100%;
-    box-sizing: border-box;
-    border: 1px solid black;
-    background:transparent; */
-}
+
 
 .m-item,
 .m-link {
