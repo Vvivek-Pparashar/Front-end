@@ -1,0 +1,66 @@
+.mb {
+  width: 100vw;
+  height: 100%;
+  /* background-color: blanchedalmond; */
+  display: flex;
+  flex-direction: row;
+}
+
+.mb-l {
+  flex: 65%;
+  /* background-color: brown; */
+  height: 100%;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgb(219, 219, 219);
+}
+
+.mb-l-c {
+  width: 100%;
+  height: 100%;
+  /* background-color: cadetblue; */
+}
+
+.mb-r {
+  flex: 35%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 5rem 0 2.5rem;
+}
+
+.mb-r-c {
+  width: 100%;
+  height: 100%;
+  /* background-color: cornflowerblue; */
+}
+
+@media screen and (max-width: 750px) {
+  .mb {
+    /* width: 100vw; */
+    /* height: 1000vh; */
+    /* background-color: blanchedalmond; */
+    /* display: flex; */
+    /* flex-direction: row; */
+  }
+
+  .mb-l {
+    flex: 100%;
+    /* background-color: brown; */
+    padding: 0 1.5rem;
+    /* display: flex; */
+    /* flex-direction: column; */
+  }
+
+  .mb-l-c {
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: cadetblue; */
+  }
+
+  .mb-r {
+    /* flex: 0%; */
+    display: none;
+    /* padding: 0 0rem 0 0rem; */
+  }
+}
