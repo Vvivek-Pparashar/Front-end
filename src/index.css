@@ -1,8 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montez&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Cormorant:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montez&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Cormorant:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;1,400&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amiri&family=Cormorant:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;1,400&display=swap");
 
 :root {
   --s-accent-1: #ffff;

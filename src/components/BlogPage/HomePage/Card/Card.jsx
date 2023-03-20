@@ -1,18 +1,16 @@
 import React from "react";
+import AuthorDetails from "../AuthorDetails/AuthorDetails";
+import Tags from "../Tags/Tags";
 import "./Card.css";
 
 const Card = () => {
   return (
     <div className="mb-card">
-      <div className="mb-card-ab">
-        <img
-          className="mb-card-ab-img"
-          src="../../../../../assests/BlogPage/Profile.png"
-          alt="profile"
-        />
-        <p>Vivek Parashar</p>
-        <p>march 21,2023</p>
-      </div>
+      <AuthorDetails
+        img={"../../../../../assests/BlogPage/Profile.png"}
+        name={"Vivek Parashar"}
+        Date={"21 March, 2023"}
+      />
       <div className="mb-card-c">
         <div className="mb-card-l">
           <h5 className="mb-card-l-h3">
@@ -23,9 +21,7 @@ const Card = () => {
             you’re a startup founder you already know these...
           </p>
           <div className="mb-card-l-bottom">
-            <div className="mb-card-l-bottom-tag">
-              <p className="mb-card-l-bottom-tag-p">StartUp</p>
-            </div>
+            <Tags tag={"Startup"} />
             <p>6 min read</p>
             <b className="selectedforyou">.</b>
             <p className="selectedforyou">selected for you</p>
